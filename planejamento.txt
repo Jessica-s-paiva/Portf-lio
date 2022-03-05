@@ -9,6 +9,7 @@ main
 	- section
 		h1
 		small
+		background-img
 	- section
 		- div
 			
