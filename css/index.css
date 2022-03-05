@@ -12,7 +12,10 @@ header{
     height: 120px;
     width: 100%;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: #333333;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 14px;
 }
 
 .logo-header{
@@ -20,8 +23,8 @@ header{
 }
 
 .logo{
-    width: 250px;
-    height: 120px;
+    width: 200px;
+    height: 100px;
 }
 
 nav{
@@ -37,20 +40,45 @@ a:link{
     color: white;
 }
 
+a:active{
+    color: var(--Primaria);
+}
+
 a:hover{
-    color: #223d6e;
+    --rosa: #ba2365;
+    color: #ba2365;
+}
+
+a:visited{
+    color: var(--Primaria);
 }
 
 .principal{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: flex-start;
     padding: 20px;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 40px;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
 }
 
 ul{
