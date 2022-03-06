@@ -68,7 +68,14 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-image: url('./image/fotos/kate.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: row;
 }
 
 small{
@@ -83,17 +90,34 @@ h1{
     flex-direction: row;
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 80px;
     justify-content: center;
 }
 
 h2{
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
+}   
+
+.esquerda{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transform: rotate(270deg);
+    width: 25%;
+    height: 700px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 80px;
 }
 
-.foo { 
-    writing-mode: vertical-rl; 
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
 }
 ul{
     list-style: none;
