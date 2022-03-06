@@ -1,3 +1,18 @@
-@media (max-width: 450px){
+@media (max-width: 700px){
+    .logo-header{
+        width: 70%;
 
+    }
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 30%;
+        padding: 20px;
+    }
 }
