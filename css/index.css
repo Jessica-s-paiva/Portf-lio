@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    position: relative;
 }
 
 header{
@@ -24,10 +25,6 @@ header{
     justify-content: center;
     align-items: flex-start;
     width: 60%;
-}
-
-.teste{
-    background-color: #ba2365;
 }
 
 .logo{
@@ -67,19 +64,35 @@ a:visited{
     width: 100%;
     padding: 20px 0;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow: hidden;
 }
+
+.titulo{
+    color: white;
+    position: relative;
+}
+
 section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: url('./image/fotos/kate.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.fundo{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
 }
 
 .habilidades{
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 small{
@@ -87,6 +100,7 @@ small{
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+    position: relative;
 }
 
 h1{
@@ -96,11 +110,13 @@ h1{
     font-weight: 800;
     font-size: 80px;
     justify-content: center;
+    position: relative;
 }
 
 h2{
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
+    position: relative;
 }   
 
 .esquerda{ 
@@ -109,7 +125,7 @@ h2{
     justify-content: center;
     align-items: flex-start;
     transform: rotate(270deg);
-    width: 25%;
+    width: 15%;
     height: 700px;
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
@@ -122,9 +138,11 @@ h2{
     justify-content: center;
     align-items: center;
     width: 75%;
+    position: relative;
 }
 ul{
     list-style: none;
+    position: relative;
 }
 
 .icones::before{
@@ -144,9 +162,13 @@ ul{
 
 footer{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
     padding-bottom: 20px;
     padding-left: 40px;
+    position: relative;
+    background-color: #333333;
+    color: white;
+    width: 100%;
 }
