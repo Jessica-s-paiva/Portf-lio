@@ -22,6 +22,10 @@ header{
     width: 60%;
 }
 
+.teste{
+    background-color: #ba2365;
+}
+
 .logo{
     width: 200px;
     height: 100px;
@@ -57,13 +61,20 @@ a:visited{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     font-family: 'Montserrat', sans-serif;
 }
 section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-color: aqua;
+}
+
+small{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -81,6 +92,9 @@ h2{
     font-weight: 800;
 }
 
+.foo { 
+    writing-mode: vertical-rl; 
+}
 ul{
     list-style: none;
 }
